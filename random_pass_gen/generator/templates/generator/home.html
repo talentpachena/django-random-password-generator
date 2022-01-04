@@ -1,0 +1,14 @@
+{% extends 'generator/base.html' %}
+{% block content %}
+
+<div class="jumbotron text-center">
+  <h1>This app will help you generate a strong password</h1> 
+  <p>Are you in need of a strong Password? Hit the button below:</p> 
+</div>
+<br>
+<div class="text-center">
+  <br>
+  <a role="button" class="btn btn-primary" href="{% url 'generate_password' %}">Get Started</a>
+</div>
+
+{% endblock %}

@@ -1,0 +1,8 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Database
+db.sqlite3
+
+# Ignore files related to API keys
+.venv
