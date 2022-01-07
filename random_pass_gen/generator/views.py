@@ -1,6 +1,5 @@
 from django.shortcuts import render
 import random
-import pyperclip as pc # importing the library for copying sting to clipboard
 
 def home(request):
     return render(request, 'generator/home.html')
