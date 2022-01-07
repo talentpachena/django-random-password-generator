@@ -1,5 +1,6 @@
 from django.shortcuts import render
 import random
+import pyperclip as pc # importing the library for copying sting to clipboard
 
 def home(request):
     return render(request, 'generator/home.html')
@@ -26,3 +27,4 @@ def password(request):
         thepassword += random.choice(characters)
 
     return render(request, 'generator/password.html', {"password":thepassword})
+
